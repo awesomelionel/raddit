@@ -19,6 +19,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #WebServer
 gem 'puma'
 
+#Devise for user auth
+gem 'devise'
+
 #Heroku dependencies
 gem 'rails_12factor', group: :production
 # Use Capistrano for deployment
