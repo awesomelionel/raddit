@@ -27,6 +27,9 @@ gem 'rails_12factor', group: :production
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Bootstrap for stylin'
+gem 'bootstrap-sass', '~> 3.3.6'
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
