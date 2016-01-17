@@ -1,28 +1,10 @@
-== README
+# Week 1 of Mackenzie's 12 in 12 Challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The goal of this challenge is to build 1 app per week for 12 weeks.
+The first app we built here is a simple Reddit clone where by users can:
+- Add links
+- Upvote / Downvote links
+- Add comments
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The basic users auth /permissions were set up using devise. 
+Voting uses the acts_as_votable gem.
